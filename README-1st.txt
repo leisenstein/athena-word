@@ -19,3 +19,5 @@ Installation is much like the Java installation:
   If you do not want to install Groovy, just copy/paste the code into: http://groovyconsole.appspot.com/
   And then, hard code the "word" variable
   
+
+  ** I also package this into a jar file if you just want to run it using 'java -jar athena-1.jar CHEESE'
