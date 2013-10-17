@@ -12,8 +12,9 @@ def startTime = System.currentTimeMillis()
 String word
 
 // Get word from command line
-word = args[0].toUpperCase()
+word = args[0]
 // String word = "ABC"; // Hard code if you want to use Groovy Web Console: http://groovyconsole.appspot.com/
+word = word.toUpperCase()
 
 if(word.length() < 1 || word.length() > 25)
 {
