@@ -87,7 +87,7 @@ class  AthenaWord {
 			perms = GetNextItemPermutations(p)
 			// println "perms:::: " + perms
 			// multiply them together
-			currentValue = coefficient.multiply(perms).intValue()
+			currentValue = coefficient.multiply(perms).toBigInteger()
 			// println "currentValue :::::: " + currentValue
 			// println ""
 
